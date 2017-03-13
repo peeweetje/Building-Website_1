@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Petra Vos - Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/form-elements.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<!--=====Header=====-->
+
+    <div >
+     <h1 class="h">Petra Vos</h1>
+     <p class="p">Sed ut perspiciatis unde omnis iste perspiciatis!</p>
+   </div>
+
+
+<!--===== navigation menu=====-->
+   <nav class="nav navbar-nav">
+      <li><a class="home1" href="index.html">Home</a></li>
+      <li><a class="home1" href="portfolio.html">portfolio</a></li>
+      <li><a class="home1" href="contact.html">contact</a></li>
+   </nav>
+   </header>
+
+   <!--===== Top content===== -->
+    <div class="row1">
+    <div class="col-sm-6 col-sm-offset-3 form-box">
+    <div class="form-top">
+    <h3>Contact us</h3>
+    <p> Please fill in the form below to send us a message:</p>
+    </div>
+
+    <div class="form-bottom contact-form">
+    <form role="form" action="contact.php" method="post">
+    <div class="form-group">
+    <label class="sr-only" for="contact-email">Email</label>
+    <input type="text" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email">
+    </div>
+
+    <div class="form-group">
+    <label class="sr-only" for="contact-subject">Subject</label>
+    <input type="text" name="subject" placeholder="Subject..." class="contact-subject form-control" id="contact-subject">
+    </div>
+
+    <div class="form-group">
+    <label class="sr-only" for="contact-message">Message</label>
+    <textarea name="message" placeholder="Message..." class="contact-message form-control" id="contact-message"></textarea>
+    </div>
+
+    <div class="form-group">
+    <label for="contact-antispam">Antispam question: 7 + 5 = ?</label>
+    <input type="text" name="antispam" placeholder="Your answer..." class="contact-antispam form-control" id="contact-antispam">
+    </div>
+
+     <button type="submit" class="btn btn-info">Send message</button>
+      </form>
+      </div>
+     </div>
+    </div>
+  </div>
+ </div>
+</div>
+  
+
+
+
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/jquery.backstretch.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
